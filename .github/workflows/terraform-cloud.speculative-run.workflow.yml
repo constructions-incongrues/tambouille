@@ -12,7 +12,7 @@ env:
   TF_CLOUD_ORGANIZATION: "constructions-incongrues"
   TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
   TF_WORKSPACE: "marmite-prod-hcloud"
-  CONFIG_DIRECTORY: "./stacks"
+  CONFIG_DIRECTORY: "./stacks/marmite"
 
 permissions:
   pull-requests: write
