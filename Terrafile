@@ -1,6 +1,0 @@
-# More info: https://terraspace.cloud/docs/terrafile/
-
-org "constructions-incongrues"
-
-# Modules
-mod "workspace", source: "nephosolutions/workspace/tfe", version: "4.2.0"

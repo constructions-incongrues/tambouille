@@ -1,7 +1,0 @@
----
-workspace:
-  source: nephosolutions/workspace/tfe
-  version: 4.2.0
-  type: registry
-  url: https://github.com/nephosolutions/terraform-tfe-workspace
-  sha: 5731a105f8c5ccc5f3c388db0c2b7ea9f913146e
