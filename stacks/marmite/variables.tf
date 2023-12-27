@@ -15,12 +15,6 @@ variable "ssh_key_public" {
   type        = string
 }
 
-variable "ssh_key_private" {
-  description = "Private SSH key contents"
-  type        = string
-  sensitive   = true
-}
-
 variable "platform_identifiers" {
   description = "Platform-wide identification labels"
 
