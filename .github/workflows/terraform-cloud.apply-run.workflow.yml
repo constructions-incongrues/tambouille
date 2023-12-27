@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - stacks/**.tf ## Example: 'terraform/**.tf'
 
 concurrency: production
 
