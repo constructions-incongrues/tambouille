@@ -1,0 +1,4 @@
+# The data.tf file in Terraform is used to define data sources that allow you to retrieve information from external systems or other Terraform configurations. Data sources provide read-only access to external resources and allow you to use that information within your Terraform configuration.
+data "tfe_organization" "constructions-incongrues" {
+  name = "constructions-incongrues"
+}
